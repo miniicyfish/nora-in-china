@@ -74,12 +74,8 @@ en = by(lambda r: r["language"] == "英" and r["type"] in ("专书", "文章"))
 W("### 2.3 英文论著\n")
 W(render(en) + "\n")
 
-jp = by(lambda r: r["language"] == "日")
-W("### 2.4 日文论著\n")
-W(render(jp) + "\n")
-
 xw = by(lambda r: r["type"] == "学位论文")
-W("### 2.5 学位论文\n")
+W("### 2.4 学位论文\n")
 W(render(xw) + "\n")
 
 # ===== 3 网络资源 =====

@@ -125,18 +125,20 @@ def build(md_path, out_path):
             doc.add_paragraph().paragraph_format.space_after = Pt(4)
             continue
 
-        # 引用块
+        # 引用块：每行各成一段
         if s.startswith('>'):
             buf = []
             while i < n and lines[i].strip().startswith('>'):
                 buf.append(lines[i].strip().lstrip('>').strip())
                 i += 1
-            p = doc.add_paragraph()
-            p.paragraph_format.left_indent = Cm(0.6)
-            p.paragraph_format.space_before = Pt(2)
-            p.paragraph_format.space_after = Pt(6)
-            p.paragraph_format.line_spacing = 1.4
-            add_inline(p, '　'.join(buf), base_size=9.5, base_cn=CN_QUOTE, base_color=GRAY)
+            buf = [q for q in buf if q]
+            for qi, q in enumerate(buf):
+                p = doc.add_paragraph()
+                p.paragraph_format.left_indent = Cm(0.6)
+                p.paragraph_format.space_before = Pt(2 if qi == 0 else 0)
+                p.paragraph_format.space_after = Pt(6 if qi == len(buf) - 1 else 1)
+                p.paragraph_format.line_spacing = 1.4
+                add_inline(p, q, base_size=9.5, base_cn=CN_QUOTE, base_color=GRAY)
             continue
 
         # 标题
