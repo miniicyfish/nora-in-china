@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Word / Office 临时锁文件
+~$*.docx
+~$*.doc
+
+# Python
+__pycache__/
+*.pyc

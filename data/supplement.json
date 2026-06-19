@@ -1,0 +1,32 @@
+[
+ {
+  "raw": "许慧琦，《“娜拉”在中国：新女性形象的塑造及其演变（1900s—1930s）》，台北：国立政治大学历史学系，2003年。",
+  "author": "许慧琦", "title": "“娜拉”在中国：新女性形象的塑造及其演变（1900s—1930s）",
+  "year": 2003, "language": "中", "source_layer": "二手研究", "type": "专书",
+  "tags": ["娜拉译介", "性别理论·方法"], "course": ["五·女权主义在中国"]
+ },
+ {
+  "raw": "刘禾著，宋伟杰等译，《跨语际实践——文学、民族文化与被译介的现代性（中国，1900—1937）》，北京：生活·读书·新知三联书店，2008年。",
+  "author": "刘禾", "title": "跨语际实践——文学、民族文化与被译介的现代性（中国，1900—1937）",
+  "year": 2008, "language": "中", "source_layer": "二手研究", "type": "专书",
+  "tags": ["性别理论·方法", "娜拉译介"], "course": ["导论2·性别分析"]
+ },
+ {
+  "raw": "Lydia H. Liu, Translingual Practice: Literature, National Culture, and Translated Modernity—China, 1900–1937. Stanford: Stanford University Press, 1995.",
+  "author": "Lydia H. Liu", "title": "Translingual Practice",
+  "year": 1995, "language": "英", "source_layer": "二手研究", "type": "专书",
+  "tags": ["性别理论·方法", "娜拉译介"], "course": ["导论2·性别分析"]
+ },
+ {
+  "raw": "Hu Ying, Tales of Translation: Composing the New Woman in China, 1899–1918. Stanford: Stanford University Press, 2000.",
+  "author": "Hu Ying", "title": "Tales of Translation: Composing the New Woman in China, 1899–1918",
+  "year": 2000, "language": "英", "source_layer": "二手研究", "type": "专书",
+  "tags": ["女杰·谱系", "性别理论·方法"], "course": ["五·女权主义在中国"]
+ },
+ {
+  "raw": "Joan Judge, The Precious Raft of History: The Past, the West, and the Woman Question in China. Stanford: Stanford University Press, 2008.",
+  "author": "Joan Judge", "title": "The Precious Raft of History: The Past, the West, and the Woman Question in China",
+  "year": 2008, "language": "英", "source_layer": "二手研究", "type": "专书",
+  "tags": ["女杰·谱系", "国族·现代性"], "course": ["五·女权主义在中国"]
+ }
+]
